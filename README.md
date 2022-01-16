@@ -1,1 +1,1 @@
-# GameCheat
+A Simple Cheat for ShooterGame.

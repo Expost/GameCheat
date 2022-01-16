@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\detours">
+      <UniqueIdentifier>{77bc882b-44cc-4946-8d01-cfd1c47bc059}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\game">
+      <UniqueIdentifier>{8a212da0-0d19-4d6a-8436-fbc9a937cb86}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="detours\detours.h">
+      <Filter>源文件\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="detours\detver.h">
+      <Filter>源文件\detours</Filter>
+    </ClInclude>
+    <ClInclude Include="utils.h">
+      <Filter>源文件</Filter>
+    </ClInclude>
+    <ClInclude Include="game\adapt_data.h">
+      <Filter>源文件\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\base_struct.h">
+      <Filter>源文件\game</Filter>
+    </ClInclude>
+    <ClInclude Include="game\game.h">
+      <Filter>源文件\game</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="dllmain.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\detours.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disasm.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolarm.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolarm64.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolia64.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolx64.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\disolx86.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\image.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="detours\modules.cpp">
+      <Filter>源文件\detours</Filter>
+    </ClCompile>
+    <ClCompile Include="game\game.cpp">
+      <Filter>源文件\game</Filter>
+    </ClCompile>
+    <ClCompile Include="shooter_game_cheat.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
